@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-16T15:29:11Z" name="Default suite" finished-at="2023-09-16T15:29:27Z" duration-ms="16127">
+  <suite started-at="2024-01-28T08:10:05Z" name="Default suite" finished-at="2024-01-28T08:10:15Z" duration-ms="9425">
     <groups>
     </groups>
-    <test started-at="2023-09-16T15:29:11Z" name="Default test" finished-at="2023-09-16T15:29:27Z" duration-ms="16127">
-      <class name="RahulShettyAcademy.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyAcademy.tests.SubmitOrderTest@106cc338]" started-at="2023-09-16T15:29:11Z" name="launchApplication" finished-at="2023-09-16T15:29:19Z" duration-ms="7932" status="PASS">
+    <test started-at="2024-01-28T08:10:05Z" name="Default test" finished-at="2024-01-28T08:10:15Z" duration-ms="9425">
+      <class name="FlipkartTest.OrderTest">
+        <test-method signature="findLowestPriceProduct()[pri:0, instance:FlipkartTest.OrderTest@2c2db130]" started-at="2024-01-28T08:10:05Z" name="findLowestPriceProduct" finished-at="2024-01-28T08:10:15Z" duration-ms="9355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder()[pri:0, instance:RahulShettyAcademy.tests.SubmitOrderTest@106cc338]" started-at="2023-09-16T15:29:19Z" name="submitOrder" finished-at="2023-09-16T15:29:27Z" duration-ms="7639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyAcademy.tests.SubmitOrderTest@106cc338]" started-at="2023-09-16T15:29:27Z" name="tearDown" finished-at="2023-09-16T15:29:27Z" duration-ms="518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- RahulShettyAcademy.tests.SubmitOrderTest -->
+        </test-method> <!-- findLowestPriceProduct -->
+      </class> <!-- FlipkartTest.OrderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

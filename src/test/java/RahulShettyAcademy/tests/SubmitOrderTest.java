@@ -13,7 +13,7 @@ public class SubmitOrderTest extends BaseTest {
 		@Test
 		public void submitOrder() throws Exception {
 		String productName = "ZARA COAT 3";
-		// Launching the the application
+		// Launching the application
 		// Its a method which will use in every Test Case method so add @BeforeTest Annotation on this method
 		// Scan both the classes local and inherited class as well for @BeforeTest 
 		// As we know that we can access method and variable from the Parent class --  launchApplication(); this method is in Parent class (BaseTest)

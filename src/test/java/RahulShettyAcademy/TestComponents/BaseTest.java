@@ -17,6 +17,10 @@ import RahulShettyAcademy.pageObjects.LandingPage;
 // Jenkins Creds - 
 // visheshmalik - 1@Malik2345
 
+// command to run jenkins : 
+//java -jar jenkins.war -httpPort=8080
+
+
 public class BaseTest {
 	public WebDriver driver;
 	public LandingPage landingPage;

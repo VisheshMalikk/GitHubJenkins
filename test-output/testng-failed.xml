@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RahulShettyAcademy.tests.SubmitOrderTest">
+      <class name="FlipkartTest.OrderTest">
         <methods>
-          <include name="submitOrder"/>
-          <include name="launchApplication"/>
-          <include name="tearDown"/>
+          <include name="findLowestPriceProduct"/>
         </methods>
-      </class> <!-- RahulShettyAcademy.tests.SubmitOrderTest -->
+      </class> <!-- FlipkartTest.OrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
